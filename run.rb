@@ -10,6 +10,7 @@ def print_spicy_foods(spicy_foods)
 spicy_foods.each do |food|
   food.each do |key, value|
   puts "#{key} (#{key}) | #{key}" 
+  binding.pry
   end
 end
 end
